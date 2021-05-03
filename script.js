@@ -7,10 +7,10 @@ var myAge30 = true // boolean
 console.log(typeof myAge30)
 var userName = // undefined
 console.log(typeof userName)
-var isNull = null // null
-console.log(typeof isNull)
+var isNull = null // null       
+console.log(typeof isNull)         // Это был вопрос с подвохом. На самом деле покажет object. Это всемипринятая ошибка JavaScript. 
 var userInfo = {firstName: 'Sergey', age: 30} // object
-console.log(userInfo)
+console.log(userInfo) // typeof userInfo
 
 // Вопрос 3
 // Првильные имена переменных
